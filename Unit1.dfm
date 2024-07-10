@@ -106,6 +106,7 @@ object Formsatuan: TFormsatuan
     Font.Style = []
     ParentFont = False
     TabOrder = 3
+    OnClick = btn2Click
   end
   object btn3: TButton
     Left = 344
@@ -120,6 +121,7 @@ object Formsatuan: TFormsatuan
     Font.Style = []
     ParentFont = False
     TabOrder = 4
+    OnClick = btn3Click
   end
   object btn4: TButton
     Left = 440
@@ -134,6 +136,7 @@ object Formsatuan: TFormsatuan
     Font.Style = []
     ParentFont = False
     TabOrder = 5
+    OnClick = btn4Click
   end
   object edt1: TEdit
     Left = 272
@@ -147,6 +150,7 @@ object Formsatuan: TFormsatuan
     Font.Style = []
     ParentFont = False
     TabOrder = 6
+    OnChange = edt1Change
   end
   object dbgrd1: TDBGrid
     Left = 96
@@ -160,6 +164,7 @@ object Formsatuan: TFormsatuan
     TitleFont.Height = -11
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
+    OnCellClick = dbgrd1CellClick
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP

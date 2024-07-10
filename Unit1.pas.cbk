@@ -114,6 +114,8 @@ begin
 
   SQL.Clear;
   SQL.Add('SELECT * FROM SATUAN');
+  edtnama.Text := '';
+  edtdeskripsi.Text := '';
   Open;
 end;
 ShowMessage('Data berhasil dihapus');
